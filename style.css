@@ -1,0 +1,79 @@
+/*Taken from the github application: https://gastonkons.github.io/shoppinglist/*/
+
+body,html{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("img/writings.jpg");
+  background-size: cover;
+  color: white;
+  font-size: 36px;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.delete {
+    font-size:.5em;
+    border:0;
+    float:right;
+    padding-top:2px;
+    margin-top:10px;
+}
+
+input {
+    border:0;
+    border-radius:10px;
+    text-align:center;
+    height:30px;
+    font-size:.5em;
+}
+
+ul {
+    max-width:400px;
+    background:#f3f3f3;
+    text-align:left;
+    margin:5px;
+    padding-left:25px;
+    color:rgb(54, 54, 54);
+}
+
+ul li {
+    align-items:center;
+}
+
+.list-item {
+    background:#f3f3f3;
+    max-width:450px;
+    margin:10px auto;
+    padding:10px;
+    border-radius:20px;
+}
+
+
+
+.done {
+  text-decoration: line-through;
+}
+
+button {
+    box-shadow:-2px 2px 2px rgba(0,0,0,.1);
+    color:rgb(54, 54, 54);
+}
